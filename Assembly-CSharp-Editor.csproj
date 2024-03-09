@@ -60,52 +60,7 @@
     <Analyzer Include="D:\unity\unity_app\2022.3.20f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\3DGamekitLite\Scripts\Game\Helpers\Editor\CameraSettingsEditor.cs" />
-    <Compile Include="Assets\3DGamekitLite\Scripts\Game\Localization\Editor\TranslatorEditor.cs" />
-    <Compile Include="Assets\3DGamekitLite\Scripts\Editor\AutoSetQualitySetting.cs" />
-    <Compile Include="Assets\3DGamekitLite\Scripts\Editor\AddCollidersToHierarchy.cs" />
-    <Compile Include="Assets\3DGamekitLite\Scripts\Game\Player\Editor\PlayerControllerEditor.cs" />
-    <Compile Include="Assets\3DGamekitLite\Packages\DefaultPlayables\TransformTween\Editor\TransformTweenDrawer.cs" />
-    <Compile Include="Assets\3DGamekitLite\Packages\Interactive\Editor\TeleporterGizmo.cs" />
-    <Compile Include="Assets\3DGamekitLite\Scripts\Editor\ExportTerrain.cs" />
-    <Compile Include="Assets\3DGamekitLite\Packages\SceneManagement\Editor\SceneNameDrawer.cs" />
-    <Compile Include="Assets\3DGamekitLite\Packages\Interactive\Editor\SimpleTranslatorEditor.cs" />
-    <Compile Include="Assets\3DGamekitLite\Scripts\Game\Core\Editor\ScenarioControllerEditor.cs" />
-    <Compile Include="Assets\3DGamekitLite\Packages\WorldBuilding\Editor\InstancePainterEditor.cs" />
-    <Compile Include="Assets\3DGamekitLite\Packages\SimpleSFX\Editor\SimpleFXEditor.cs" />
-    <Compile Include="Assets\3DGamekitLite\Scripts\Game\Core\Editor\SubEditor.cs" />
-    <Compile Include="Assets\3DGamekitLite\Packages\DefaultPlayables\TextSwitcher\Editor\TextSwitcherDrawer.cs" />
-    <Compile Include="Assets\3DGamekitLite\Scripts\Editor\FilterLOD.cs" />
-    <Compile Include="Assets\3DGamekitLite\Packages\DefaultPlayables\Editor\TimelinePlayableWizard.cs" />
-    <Compile Include="Assets\3DGamekitLite\Scripts\Game\Timeline\AudioSnapshot\Editor\AudioSnapshotDrawer.cs" />
-    <Compile Include="Assets\3DGamekitLite\Scripts\Game\Localization\Editor\TranslatedPhrasesEditor.cs" />
-    <Compile Include="Assets\3DGamekitLite\Scripts\Editor\CheckpointEditor.cs" />
-    <Compile Include="Assets\3DGamekitLite\Scripts\Game\Timeline\SceneReloader\Editor\SceneReloaderDrawer.cs" />
-    <Compile Include="Assets\3DGamekitLite\Packages\WorldBuilding\Editor\InstancePainterEditor.Inspector.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
-    <Compile Include="Assets\3DGamekitLite\Scripts\Game\Timeline\TimeMachine\Editor\TimeMachineClipInspector.cs" />
-    <Compile Include="Assets\3DGamekitLite\Packages\SceneManagement\Editor\TransitionStartEditor.cs" />
-    <Compile Include="Assets\3DGamekitLite\Packages\Interactive\Editor\CommandReceiverEditor.cs" />
-    <Compile Include="Assets\3DGamekitLite\Packages\SimpleSFX\Editor\SynthLayerDrawer.cs" />
-    <Compile Include="Assets\3DGamekitLite\Scripts\Game\Timeline\MaterialSwitcher\Editor\MaterialSwitcherDrawer.cs" />
-    <Compile Include="Assets\3DGamekitLite\Scripts\Game\Player\Editor\CheckpointGroupEditor.cs" />
-    <Compile Include="Assets\3DGamekitLite\Packages\DefaultPlayables\LightControl\Editor\LightControlDrawer.cs" />
-    <Compile Include="Assets\3DGamekitLite\Scripts\Game\Core\Editor\AddObjectiveSubEditor.cs" />
-    <Compile Include="Assets\3DGamekitLite\Packages\WorldBuilding\Editor\InstancePainterEditor.SceneGUI.cs" />
-    <Compile Include="Assets\3DGamekitLite\Packages\SceneManagement\Editor\DataPersisterEditor.cs" />
-    <Compile Include="Assets\3DGamekitLite\Scripts\Game\Timeline\SetLocation\Editor\SetLocationDrawer.cs" />
-    <Compile Include="Assets\3DGamekitLite\Scripts\Game\Camera\Editor\LayerCullDistancesEditor.cs" />
-    <Compile Include="Assets\3DGamekitLite\Packages\WorldBuilding\Editor\MegaSmartObjectEditor.cs" />
-    <Compile Include="Assets\3DGamekitLite\Packages\DefaultPlayables\StandardMaterialEmission\Editor\StandardMaterialEmissionDrawer.cs" />
-    <Compile Include="Assets\3DGamekitLite\Packages\DefaultPlayables\ScreenFader\Editor\ScreenFaderDrawer.cs" />
-    <Compile Include="Assets\3DGamekitLite\Packages\Interactive\Editor\SendGameCommandEditor.cs" />
-    <Compile Include="Assets\3DGamekitLite\Packages\DefaultPlayables\TimeDilation\Editor\TimeDilationDrawer.cs" />
-    <Compile Include="Assets\3DGamekitLite\Packages\SceneManagement\Editor\ParameterSetterDrawer.cs" />
-    <Compile Include="Assets\3DGamekitLite\Scripts\Game\Localization\Editor\PhraseDrawer.cs" />
-    <Compile Include="Assets\3DGamekitLite\Packages\Interactive\Editor\SimpleTransformerEditor.cs" />
-    <Compile Include="Assets\3DGamekitLite\Scripts\Game\Timeline\CutsceneScriptControl\Editor\CutsceneScriptControlDrawer.cs" />
-    <Compile Include="Assets\3DGamekitLite\Scripts\Editor\NewSceneCreator.cs" />
-    <Compile Include="Assets\3DGamekitLite\Packages\WorldBuilding\Editor\PaletteWizard.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1205,30 +1160,6 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{64FAB5D7-674E-7C16-A0C5-0B4DDF0F59F6}</Project>
       <Name>Assembly-CSharp</Name>
-    </ProjectReference>
-    <ProjectReference Include="PackageManagerCheck.csproj">
-      <Project>{3919367A-A196-155B-5D86-FB8E803160FC}</Project>
-      <Name>PackageManagerCheck</Name>
-    </ProjectReference>
-    <ProjectReference Include="SimpleSFXRuntime.csproj">
-      <Project>{9F2DF297-F302-FADE-DD3C-1F86316CF5EA}</Project>
-      <Name>SimpleSFXRuntime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Skybox3DRuntime.csproj">
-      <Project>{10530154-EE37-49BD-8905-40351E512CE1}</Project>
-      <Name>Skybox3DRuntime</Name>
-    </ProjectReference>
-    <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{B3656EB9-A07B-FA54-6FB0-890D0A1DC020}</Project>
-      <Name>NavMeshComponents</Name>
-    </ProjectReference>
-    <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{5071861D-91C3-5D4E-404A-0607CC214CA1}</Project>
-      <Name>NavMeshComponentsEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="WorldBuildingRuntime.csproj">
-      <Project>{B465216D-102B-D5FF-38B3-8E616AEC7AEE}</Project>
-      <Name>WorldBuildingRuntime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
